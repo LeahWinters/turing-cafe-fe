@@ -1,0 +1,31 @@
+.res-card {
+  display: flex;
+  border: solid 3px teal;
+  border-radius: 4px;
+  background-color: white;
+  width: 18%;
+  margin: 2%;
+  font-size: 0.6em;
+  height: 32%;
+  color: teal;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  margin: 3%;
+}
+
+.cancel-btn {
+  border: solid 2px teal;
+  border-radius: 4px;
+  width: 50%;
+  margin-top:2%;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background-color: teal;
+  color: white;
+}
