@@ -11,7 +11,6 @@ class ReservationList extends Component {
   }
 
   render() {
-    console.log(this.props.reservations)
     if(this.props.reservations.length === 0) {
       return <div className="loading">loading</div>
     } else {

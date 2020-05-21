@@ -19,8 +19,8 @@ class App extends Component {
   }
 
   addReservation = (reservation) => {
-    let modifiedReservations = this.state.reservations.push(reservation)
-    this.setState({...this.state, reservation});
+    this.state.reservations.push(reservation)
+    this.setState({...this.state});
   }
 
   render() {
