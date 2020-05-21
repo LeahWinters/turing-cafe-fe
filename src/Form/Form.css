@@ -1,0 +1,20 @@
+.form {
+  width: 100%;
+}
+
+input {
+  border-radius: 3px;
+  border: solid 3px teal;
+  margin: 2%;
+}
+
+.make-res-btn {
+  border-radius: 3px;
+  border: solid 3px teal;
+  cursor: pointer;
+}
+
+.make-res-btn:hover {
+  background-color: teal;
+  color: white;
+}

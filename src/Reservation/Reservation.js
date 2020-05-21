@@ -11,7 +11,6 @@ class Reservation extends Component {
   }
 
   render() {
-    console.log(this.props)
     return (
       <div className="res-card">
         <h3>{this.props.name}</h3>

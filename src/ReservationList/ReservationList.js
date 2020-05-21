@@ -11,7 +11,8 @@ class ReservationList extends Component {
   }
 
   render() {
-    if(this.props.reservations[0].date === undefined) {
+    console.log(this.props.reservations)
+    if(this.props.reservations.length === 0) {
       return <div className="loading">loading</div>
     } else {
       let resCards = this.props.reservations.map(res => {
